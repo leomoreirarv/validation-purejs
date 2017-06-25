@@ -1,0 +1,40 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    min-height: 100%;
+    min-width: 100%;
+}
+
+body > form {
+    margin: 20px;
+    padding: 20px;
+    background: #dedede;
+}
+
+body > form input[type="text"]{
+    padding: 10px;
+    border: 1px solid #cccccc;
+    font-size: 20px;
+    color: #333333;
+    border-radius: 10px;
+}
+
+
+.error_message{
+    color: red;
+    font-weight: bold;
+}
+
+.error{
+    color: purple;
+    font-style: italic;
+}
+
+body > form input[type="text"].error{
+    border: 1px solid red;
+}

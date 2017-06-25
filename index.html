@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="textbox.validation.js"></script>
+     <script src="form1.js"></script>
+    <title>Validation Pure Javascript</title>
+</head>
+<body>
+    <form id="form1">
+        <div>
+        <input type="text" 
+                id="field1"
+                class="class1 class2 class3"
+                onblur="validate(this).between()" 
+                onkeyup="validate(this).between()" 
+                onkeypress="return validate(this).blockText(event);">
+        </div>
+
+        
+    </form> 
+   
+</body>
+</html>
